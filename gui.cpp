@@ -389,7 +389,6 @@ namespace Features
 		auto acknowledged_pawn = player_controller->AcknowledgedPawn; if ((acknowledged_pawn) == nullptr) return;
 		auto* root_component = acknowledged_pawn->RootComponent; if ((root_component) == nullptr) return;
 		auto game_state = (*SDK::m_world)->GameState; if ((game_state) == nullptr) return;
-		auto test = SDK::weapon_test->CurrentHealth;
 		auto player_array = game_state->PlayerArray;
 		CG::FVector2D screen;
 		CG::FVector2D screen2;
